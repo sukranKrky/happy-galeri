@@ -1,4 +1,4 @@
-import "./App.css";
+
 import Dashboard from "./layouts/Dashboard";
 import Footer from "./layouts/Footer";
 import Navi from "./layouts/Navi";
