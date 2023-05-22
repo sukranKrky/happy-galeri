@@ -1,4 +1,4 @@
-body,
+/* body,
 html {
   font-family: "Julius Sans One", sans-serif;
 }
@@ -9,11 +9,12 @@ html {
   position: absolute;
   width: 100vw;
   background: #ffffff;
-}
+} 
 .navbar {
   margin: 30px;
   height: 50px;
 }
+
 
 .navbar ul {
   display: flex;
@@ -131,13 +132,11 @@ html {
   justify-content: center;
   text-align: center;
 
-  /* identical to box height */
 
   text-transform: capitalize;
 
   color: #000000;
 
-  /* Inside auto layout */
 
   flex: none;
   order: 0;
@@ -156,13 +155,8 @@ html {
   font-size: 22px;
   line-height: 36px;
   text-align: center;
-
   text-transform: capitalize;
-
   color: #000000;
-
-  /* Inside auto layout */
-
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -298,10 +292,7 @@ html {
   font-weight: 200;
   font-size: 50px;
   line-height: 82px;
-  /* identical to box height */
-
   text-transform: capitalize;
-
   color: #000000;
 }
 .podcast p {
@@ -332,8 +323,6 @@ html {
   font-weight: 400;
   font-size: 12px;
   line-height: 150%;
-  /* or 24px */
-
   color: #808080;
 }
 .podcast .spotifay {
@@ -422,7 +411,6 @@ html {
   width: 280px;
   height: 370px;
   left: 140px;
-  background-color: aquamarine;
 }
 .european h2 {
   margin-left: 15px;
@@ -440,7 +428,6 @@ html {
 .detailBox {
   position: absolute;
   top: 0;
-  background: #000;
 }
 .european p {
   position: absolute;
@@ -576,42 +563,38 @@ html {
   text-transform: uppercase;
 }
 
-.footerLeft li {
-  list-style: none;
-  position: relative;
 
-  right: 45px;
-
-  font-size: 11px;
-  margin: 5px;
-}
 .fListItem {
   font-family: "Inter";
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 22px;
 
   display: flex;
   align-items: center;
+    list-style: none;
+  position: relative;
+
+  right: 5px;
+
+  margin: 5px;
 }
 
 .footerRight {
-   box-sizing: border-box;
+  box-sizing: border-box;
   position: absolute;
   right: 0px;
   width: 40%;
-
-  
 }
-.socialMedia{
+.socialMedia {
   display: flex;
   align-items: center;
   height: 140px;
   margin-top: 60px;
-border-left: 1px solid #333333;
+  border-left: 1px solid #333333;
 }
-.socialMedia li{
+.socialMedia li {
   position: relative;
   display: inline;
 
@@ -619,13 +602,11 @@ border-left: 1px solid #333333;
   margin: 8px;
   left: 40px;
   bottom: 10px;
-  
-
 }
-.socialMedia li img{
+.socialMedia li img {
   width: 40px;
 }
-.footerRight hr{
+.footerRight hr {
   position: absolute;
   width: 320px;
   height: 0.1px;
@@ -633,59 +614,52 @@ border-left: 1px solid #333333;
   top: 58px;
   border: 1px solid #333333;
 }
-.footerRight h1{
+.footerRight h1 {
   position: absolute;
 
   height: 60px;
   left: 90px;
   top: 30px;
-  
-  font-family: 'Inter';
+
+  font-family: "Inter";
   font-style: normal;
   font-weight: 200;
   font-size: 10px;
   line-height: 22px;
-  
+
   display: flex;
   align-items: center;
   letter-spacing: 1.3px;
   text-transform: uppercase;
-  
-  color: #FFFFFF;
 
+  color: #ffffff;
 }
-.footerBottom{
+.footerBottom {
   position: relative;
   width: 87vw;
-height: 40px;
-top: 215px;
-left: 95px;
-border-top: 1px solid #333333;
-
-
-
+  height: 40px;
+  top: 215px;
+  left: 95px;
+  border-top: 1px solid #333333;
 }
-.footerBottom ul{
- 
+.footerBottom ul {
   justify-content: center;
   align-items: center;
-text-align: center;
-height: 50px;
-
+  text-align: center;
+  height: 50px;
 }
 
-.footerBottom li{
-position: relative;
-display: inline;
-list-style: none;
-padding-left: 20px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 10px;
-line-height: 18px;
-align-items: center;
+.footerBottom li {
+  position: relative;
+  display: inline;
+  list-style: none;
+  padding-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 18px;
+  align-items: center;
 
-
-color: #C6C6C6;
-}
+  color: #c6c6c6;
+}*/

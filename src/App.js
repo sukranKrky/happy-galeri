@@ -4,9 +4,10 @@ import Footer from "./layouts/Footer";
 import Navi from "./layouts/Navi";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="navbar">
+ 
+  return ( 
+    <div className="App absolute w-screen bg-white">
+      <div className="navbar my-8 h-12">
         <Navi />
       </div>
 
