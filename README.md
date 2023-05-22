@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-src/img/Happy-Galeri.png
+[src/img/Happy-Galeri.png](https://github.com/sukranKrky/happy-galeri/blob/master/src/img/Happy-Galeri.png?raw=true)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
